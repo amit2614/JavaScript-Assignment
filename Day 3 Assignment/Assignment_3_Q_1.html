@@ -1,0 +1,50 @@
+<html>
+    <title>Assignment 3</title>
+    <head>
+
+    </head> 
+    <body>
+        <h1>Assignment 03</h1>
+
+      
+        
+        <script>
+         
+            var library = [
+                {
+                author: 'Bill Gates',
+                title: 'The Road Ahead',
+                readingStatus: true
+                },
+                {
+                author: 'Steve Jobs',
+                title: 'Walter Isaacson',
+                readingStatus: true
+                },
+                {
+                author: 'Suzanne Collins',
+                title: 'Mockingjay: The Final Book of The Hunger Games',
+                readingStatus: false
+                }];
+
+                for(var i = 0 ; i < library.length; i++)
+                {
+
+                    //console.log(library[i]);
+                     if( library[i].readingStatus === true)
+                    {
+                        console.log("Already Read" + " "+ library[i].author + " " + library[i].title);
+                    }
+                    else
+                    {
+                        console.log("You still need to read" + " "+ library[i].author + " "+ library[i].title);
+                     }
+                }
+        </script>
+
+    </body>
+
+</html>
+
+
+
